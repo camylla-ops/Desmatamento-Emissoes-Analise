@@ -1,68 +1,52 @@
-# Projeto final - Tema Meio ambiente 
+ # Análise de Desmatamento e Emissões de CO₂ na Amazônia  
+**Bootcamp Analista de Dados – Soulcode Academy**  
+
+---
+
+## 🎯 Objetivo  
+Este projeto focou na análise de dados relacionados ao desmatamento,  utilizando dados oficiais do **[INPE](https://www.inpe.br/)** e **[MapBiomas](https://mapbiomas.org/)**. Como parte da equipe, contribuí ativamente em todas as etapas, desde a integração dos dados até a geração de insights estratégicos.
+, para propor soluções sustentáveis.  
+
+---
+
+## 🔍 Principais Conclusões  
+- **Pará: Epicentro do desmatamento**  
+  - Responsável por **quase 30%** da área desmatada no país.  
+  - **Mais de 90%** do desmatamento está vinculado à atividade agrícola.  
+
+- **Tendência Temporal**  
+  - Queda significativa de hectares desmatados em 2020, seguida por aumento em 2021.  
+  - Emissões de CO₂ acompanham diretamente os picos de desmatamento.  
 
 
-Soulcode Academy Bootcamp Analista de Dados – Martech – AD2  
+---
 
-**Professores:**
+## 🌱 Sugestões de Ação  
+1. **Parcerias com ONGs** para monitoramento em tempo real de áreas críticas.  
+2. **Campanhas de reciclagem** com foco em comunidades agrícolas.  
+3. **Apoio a leis governamentais** que vinculem licenças agrícolas à preservação.  
+4. **Armazenamento de CO₂** em formações geológicas subterrâneas.  
+5. **Transição gradual** para operações carbono neutro.  
 
-- Franciane Rodrigues
-- Douglas Ribeiro
-- Jonathas Carneiro
-  
-**Integrantes:**
-  
-- Camila Barcellos
-- Camylla Oliveira
-- Ester Beatriz
-- Heloisa Gasques
-- Maria Eduarda Klug
-- Vanessa Monteiro
+---
 
-## Descrição Geral do Projeto
+## ⚙️ Detalhes Técnicos  
+### Tecnologias Utilizadas  
+`Python` `Pandas` `PySpark` `SQL` `MongoDB` `Power BI` `Google Cloud Platform (GCP)` `ETL`  
 
-Este é o Projeto Final do curso "Bootcamp Analista de Dados – Martech – AD2" na Soulcode Academy. Cada equipe deverá aplicar os conceitos aprendidos para tratar, organizar e modelar dados de no mínimo 2 datasets, seguindo um tema específico. Tecnologias como Google Cloud Platform (Cloud Storage), Python, Pandas, SQL, PySpark, Looker Studio, PowerBI, Big Query e MongoDB serão utilizadas obrigatoriamente.
+### Requisitos Cumpridos  
+- **Datasets**: Uso de datasets com formatos diferentes.  
+- **Processamento**: Limpeza e normalização com Pandas/PySpark.  
+- **Armazenamento**: GCP (Cloud Storage), BigQuery e MongoDB.  
+- **Visualização**: Dashboard no Power BI.  
 
-## Apresentação
 
-A apresentação do trabalho seguirá as seguintes diretrizes:
+---
 
-- Apresentação do dataset escolhido, incluindo a fonte e principais informações.
-- Demonstração das funções e ferramentas utilizadas no código.
-- Explicação sobre a escolha do dataset.
-- Apresentação de todos os integrantes.
-- Uso de terminologia técnica.
-- Duração máxima de 60 minutos.
+## 👥 Equipe  
+Camila Barcellos | **Camylla Oliveira** | Ester Beatriz | Heloisa Gasques | Maria Eduarda Klug | Vanessa Monteiro  
 
-## Habilidades Avaliadas
+---
 
-As principais habilidades a serem avaliadas incluem:
-
-- Comunicação em público.
-- Análise SWOT.
-- Uso de storytelling na apresentação dos dados.
-- Identificação de métricas e KPIs relevantes.
-- Sugestões de ações baseadas nas informações coletadas.
-- Argumentação e capacidade de codificação em Python.
-- Habilidade de interpretação e análise de dados.
-- Utilização das bibliotecas Pandas e PySpark.
-- Escrita de consultas SQL.
-- Capacidade analítica e interpretativa.
-- Trabalho em grupo e organização.
-
-## Requisitos Obrigatórios
-
-O projeto deverá atender aos seguintes requisitos:
-
-- Uso de datasets com formatos diferentes (CSV / JSON / SQL / NoSQL / Excel).
-- Operações com Pandas para limpeza, transformação e normalização.
-- Utilização do PySpark com justificativas para as transformações.
-- Pelo menos 2 tipos de gráficos para visualizar dados e inconsistências.
-- Datasets devem ser traduzidos para o PT-BR.
-- Armazenamento obrigatório na GCP (não usar Google Drive).
-- Utilização do BigQuery e armazenamento em Datalake ou DW.
-- Armazenamento dos Dataframes resultantes em um cluster MongoDB Atlas.
-- Mínimo de 4 análises no Big Query com SQL.
-- Criação de dashboard no Looker Studio ou PowerBI.
-- Demonstração visual das etapas de ETL.
-- Documentação completa do projeto.
-
+## 📄 Documentação  
+- **[Relatório Técnico](./Documentação%20Projeto%20Final%20-%20Equipe%2004.pdf)**  
