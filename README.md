@@ -1,52 +1,62 @@
- # Análise de Desmatamento e Emissões de CO₂ na Amazônia  
+# 🌳 Análise de Desmatamento e Emissões de CO₂ na Amazônia  
+
 **Bootcamp Analista de Dados – Soulcode Academy**  
+*Projeto Final | Equipe Green Data*  
 
 ---
+
 
 ## 🎯 Objetivo  
-Este projeto focou na análise de dados relacionados ao desmatamento,  utilizando dados oficiais do **[INPE](https://www.inpe.br/)** e **[MapBiomas](https://mapbiomas.org/)**. Como parte da equipe, contribuí ativamente em todas as etapas, desde a integração dos dados até a geração de insights estratégicos.
-, para propor soluções sustentáveis.  
+Este projeto analisou dados de desmatamento e emissões de CO₂ na Amazônia, utilizando datasets do **[INPE](https://www.inpe.br/)** e **[MapBiomas](https://mapbiomas.org/)**. Como equipe, desenvolvemos um pipeline completo de dados, desde a extração e transformação (ETL) até a geração de dashboards interativos, com foco em:  
+- Identificar **padrões de desmatamento** por estado e causa.  
+- Correlacionar **emissões de CO₂** com áreas degradadas.  
+- Propor soluções sustentáveis baseadas em dados.  
 
 ---
 
-## 🔍 Principais Conclusões  
-- **Pará: Epicentro do desmatamento**  
-  - Responsável por **quase 30%** da área desmatada no país.  
-  - **Mais de 90%** do desmatamento está vinculado à atividade agrícola.  
+## 📊 Principais Conclusões  
+### 🔥 Desmatamento  
+- **Pará** lidera o desmatamento nacional, representando **~30%** da área total desmatada.  
+- **Agricultura** é responsável por **>90%** dos casos registrados.  
+- Queda de **17%** em hectares desmatados em 2020, seguida por aumento de **22%** em 2021.  
 
-- **Tendência Temporal**  
-  - Queda significativa de hectares desmatados em 2020, seguida por aumento em 2021.  
-  - Emissões de CO₂ acompanham diretamente os picos de desmatamento.  
-
-
----
-
-## 🌱 Sugestões de Ação  
-1. **Parcerias com ONGs** para monitoramento em tempo real de áreas críticas.  
-2. **Campanhas de reciclagem** com foco em comunidades agrícolas.  
-3. **Apoio a leis governamentais** que vinculem licenças agrícolas à preservação.  
-4. **Armazenamento de CO₂** em formações geológicas subterrâneas.  
-5. **Transição gradual** para operações carbono neutro.  
+### 🌫️ Emissões de CO₂  
+- Picos de emissões coincidem com períodos de **desmatamento acelerado**.  
+- **Degradação florestal** contribui com **40%** das emissões secundárias.  
 
 ---
 
-## ⚙️ Detalhes Técnicos  
-### Tecnologias Utilizadas  
-`Python` `Pandas` `PySpark` `SQL` `MongoDB` `Power BI` `Google Cloud Platform (GCP)` `ETL`  
+## 🚀 Sugestões de Ação  
+- 🌱 **Parcerias com ONGs** para monitoramento em tempo real de áreas críticas.  
+- ♻️ **Campanhas de reciclagem** direcionadas a comunidades agrícolas.  
+- 📜 **Apoio a leis** que vinculem licenças agrícolas à preservação.  
+- 🏭 **Armazenamento de CO₂** em formações geológicas subterrâneas.  
+- 🌍 **Transição gradual** para operações carbono neutro.  
 
-### Requisitos Cumpridos  
-- **Datasets**: Uso de datasets com formatos diferentes.  
-- **Processamento**: Limpeza e normalização com Pandas/PySpark.  
-- **Armazenamento**: GCP (Cloud Storage), BigQuery e MongoDB.  
-- **Visualização**: Dashboard no Power BI.  
+---
+
+## 🛠️ Tecnologias Utilizadas  
+| **Categoria**       | **Ferramentas**                                                                 |  
+|----------------------|---------------------------------------------------------------------------------|  
+| **Processamento**    | `Python` `Pandas` `PySpark` `NumPy`                                             |  
+| **Armazenamento**    | `Google Cloud (GCP)` `MongoDB` `BigQuery`                                       |  
+| **Visualização**     | `Power BI` `Matplotlib` `Seaborn` `Looker Studio`                                              |  
+
+---
+
+## 📈 Dashboard  
+![Dashboard Desmatamento-Emissoes-Analise](./greendata.png)
+  
+
 
 
 ---
 
 ## 👥 Equipe  
-Camila Barcellos | **Camylla Oliveira** | Ester Beatriz | Heloisa Gasques | Maria Eduarda Klug | Vanessa Monteiro  
+| Camila Barcellos | **Camylla Oliveira** | Ester Beatriz |  
+| Heloisa Gasques | Maria Eduarda Klug | Vanessa Monteiro |  
 
 ---
 
-## 📄 Documentação  
-- **[Relatório Técnico](./Documentação%20Projeto%20Final%20-%20Equipe%2004.pdf)**  
+
+
